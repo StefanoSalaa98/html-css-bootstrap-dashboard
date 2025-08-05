@@ -5,10 +5,11 @@
 .table strong, .table .bottoni{
     white-space:nowrap;
 }
-
+/*
 @media screen and (max-width:576px){
     
     .prestito{
         display:none;
     }
 }
+*/
