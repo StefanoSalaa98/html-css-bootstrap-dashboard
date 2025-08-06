@@ -34,8 +34,8 @@
     <div class="container">
 
         <!-- prima sezione -->
-         
-        <div class="row  mt-3">
+
+        <div class="row  mt-4">
             <div class="col">
                 <label for="nome">Nome Autore</label>
                 <input type="text" class="form-control" id="nome" 
@@ -54,6 +54,37 @@
                 placeholder="Inserisci il titolo del libro">
             <div id="textHelp" class="form-text">Titolo versione italiana</div>     
         </div>
+
+        <!-- seconda sezione -->
+
+        <div class="row mt-4">
+            <div class="col mb-3">
+                <label for="nome">Genere</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Scegli il genere</option>
+                    <option value="1">Romanzi</option>
+                    <option value="2">Fantascienza</option>
+                    <option value="3">Gialli</option>
+                    <option value="2">Storici</option>
+                    <option value="3">Fantasy</option>
+                </select>
+            </div>
+            <div class="col">
+                <label for="pubblicazione">Anno di pubblicazione</label>
+                <input type="number" class="form-control" data-bs-input id="pubblicazione" 
+                     step="any" placeholder="Inserisci l'anno">
+            </div>
+
+            <div class="col">
+            <label for="isbn">ISBN#</label>
+            <input type="text" class="form-control" id="isbn" 
+                placeholder="Inserisci codice ISBN#">  
+        </div>
+
+        <hr class="my-4">
+
+        </div>
+
     </div>
     
 </body>
